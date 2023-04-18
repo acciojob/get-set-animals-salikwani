@@ -6,6 +6,9 @@ class Animal {
 	get animalSpecies() {
 		return this.species;
 	}
+	makeSound() {
+		return this.species + "sound: ";
+	}
 }
 
 class Dog extends Animal {
